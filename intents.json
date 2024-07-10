@@ -1,0 +1,67 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "payment",
+     "patterns": ["How do I make a payment?", "Can I pay online?", "What are the payment options?", "How do I pay my bill?"],
+     "responses": ["You can make a payment online through our website", "We accept various payment methods including credit cards and PayPal", "Please visit our website to learn more about payment options"]
+    },
+    {"tag": "refund",
+     "patterns": ["Can I get a refund?", "How do I request a refund?", "What is the refund policy?"],
+     "responses": ["Yes, you can request a refund within 30 days of purchase", "Please contact our customer support team to initiate the refund process", "Our refund policy is available on our website"]
+    },
+    {"tag": "tracking",
+     "patterns": ["How do I track my order?", "Where is my order?", "Can I track my shipment?"],
+     "responses": ["You can track your order by logging into your account on our website", "Please check your email for tracking information", "You can track your shipment using the tracking number provided"]
+    },
+    {"tag": "productinfo",
+     "patterns": ["What products do you offer?", "Can you tell me more about a product?", "Do you have any information about a product?"],
+     "responses": ["We offer a wide range of products, please visit our website to learn more", "Please let me know the product you're interested in and I'll be happy to provide more information", "Yes, I can provide you with information about our products"]
+    },
+    {"tag": "return",
+     "patterns": ["Can I return a product?", "How do I return a product?", "What is the return policy?"],
+     "responses": ["Yes, you can return a product within 30 days of purchase", "Please contact our customer support team to initiate the return process", "Our return policy is available on our website"]
+    },
+    {"tag": "cancel",
+     "patterns": ["Can I cancel my order?", "How do I cancel my order?", "What is the cancellation policy?"],
+     "responses": ["Yes, you can cancel your order within 24 hours of placing it", "Please contact our customer support team to initiate the cancellation process", "Our cancellation policy is available on our website"]
+    },
+    {"tag": "storehours",
+     "patterns": ["What are your store hours?", "When is the store open?", "What time does the store close?"],
+     "responses": ["Our store hours are Monday to Friday, 9am to 5pm", "Please visit our website to learn more about our store hours", "Our store hours may vary on holidays, please check our website for more information"]
+    },
+    {"tag": "location",
+     "patterns": ["Where is your store located?", "What is your address?", "Can you give me directions to your store?"],
+     "responses": ["Our store is located at [insert address]", "Please visit our website to learn more about our location", "You can find directions to our store on our website"]
+    }
+]
+}
