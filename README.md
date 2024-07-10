@@ -10,16 +10,14 @@ Welcome to the simple chatbot project built using TensorFlow, Keras, and Flask. 
 ## Features ✨
 - 🤓 **Trained on a dataset of intents and responses**
 - 🧠 **Uses TensorFlow and Keras for natural language processing**
-- 🌐 **Built with Flask for a web-based interface**
 - 💬 **Responds to user input with relevant responses**
 
 ## Getting Started 🚀
 
 ### Prerequisites 📋
-- 🐍 **Python 3.6 or later**
+- 🐍 **Python 3.8 or Python 3.9**
 - 🔮 **TensorFlow 2.3 or later**
 - ⚙️ **Keras 2.3 or later**
-- 🛠️ **Flask 1.1 or later**
 
 ### Installation 🛠️
 1. Clone the repository:
@@ -61,7 +59,6 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 ## Acknowledgments 🙌
 This project was built using the following resources:
 - TensorFlow and Keras for natural language processing
-- Flask for the web interface
 - Colorama for terminal colors
 
 ## Code Structure 🗂️
