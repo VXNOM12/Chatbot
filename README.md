@@ -1,5 +1,3 @@
-Certainly! Here’s a README for your chatbot project with some emojis to make it more engaging. You can add images later as needed.
-
 ---
 
 # Chatbot 🤖
